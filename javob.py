@@ -237,3 +237,10 @@
 brands = {'Nike', 'Adidas'}
 brands.add('Puma')
 print(brands)
+brands.discard('Adidas')
+print(brands)
+brands.add('Reedbok')
+print(brands)
+locals_brands = {'Sabr', 'Nike'}
+brands.union(locals_brands)
+print(brands)
